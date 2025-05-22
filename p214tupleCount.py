@@ -1,0 +1,5 @@
+t1 = (11, 22, 33, 44, 33, 22, 33)
+print(t1)
+list1=list(t1)
+no=int(input("Enter the number to be counted:"))
+print(list1.count(no))
